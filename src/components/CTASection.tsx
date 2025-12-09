@@ -7,7 +7,7 @@ const CTASection = () => {
       {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-primary/5 to-background" />
       <div className="absolute inset-0 grid-pattern opacity-10" />
-      
+
       {/* Glowing orbs */}
       <div className="absolute top-1/2 left-1/4 w-64 h-64 bg-primary/10 rounded-full blur-3xl" />
       <div className="absolute top-1/2 right-1/4 w-48 h-48 bg-glow-secondary/10 rounded-full blur-3xl" />
@@ -23,7 +23,8 @@ const CTASection = () => {
           </h2>
 
           <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-            Join streamers who use LOLLIVE to provide their viewers with real-time game insights.
+            Join streamers who use LOL STATS to provide their viewers with
+            real-time game insights.
           </p>
 
           {/* CTAs */}
@@ -49,7 +50,8 @@ const CTASection = () => {
 
           {/* Trust badge */}
           <p className="text-sm text-muted-foreground pt-4">
-            Free to use • No credit card required • Works with any Twitch account
+            Free to use • No credit card required • Works with any Twitch
+            account
           </p>
         </div>
       </div>

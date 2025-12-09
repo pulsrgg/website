@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="relative bg-card/50 border-t border-primary/20">
       {/* Decorative line */}
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
-      
+
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
@@ -21,7 +21,8 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-xs">
-              Real-time League of Legends game data overlay for Twitch streamers.
+              Real-time League of Legends game data overlay for Twitch
+              streamers.
             </p>
           </div>
 
@@ -71,7 +72,8 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t border-primary/10">
           <p className="text-center text-muted-foreground text-sm">
-            © {new Date().getFullYear()} LOLLIVE. All rights reserved. Not endorsed by Riot Games.
+            © {new Date().getFullYear()} LOL STATS. All rights reserved. Not
+            endorsed by Riot Games.
           </p>
         </div>
       </div>

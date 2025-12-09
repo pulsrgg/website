@@ -1,11 +1,18 @@
 import { Button } from "@/components/ui/button";
-import { Download, ExternalLink, Play, Settings, CheckCircle2 } from "lucide-react";
+import {
+  Download,
+  ExternalLink,
+  Play,
+  Settings,
+  CheckCircle2,
+} from "lucide-react";
 
 const steps = [
   {
     number: "01",
     title: "Install Twitch Extension",
-    description: "Add the LOLLIVE extension to your Twitch channel from the Twitch Extensions panel.",
+    description:
+      "Add the LOL STATS extension to your Twitch channel from the Twitch Extensions panel.",
     icon: ExternalLink,
     action: {
       label: "Go to Twitch Extensions",
@@ -15,7 +22,8 @@ const steps = [
   {
     number: "02",
     title: "Download Desktop App",
-    description: "Download and install the companion app that connects to your League of Legends client.",
+    description:
+      "Download and install the companion app that connects to your League of Legends client.",
     icon: Download,
     action: {
       label: "Download for Windows",
@@ -25,13 +33,15 @@ const steps = [
   {
     number: "03",
     title: "Configure & Launch",
-    description: "Open the desktop app and log in with your Twitch account to link everything together.",
+    description:
+      "Open the desktop app and log in with your Twitch account to link everything together.",
     icon: Settings,
   },
   {
     number: "04",
     title: "Start Streaming",
-    description: "Launch League of Legends and start your stream. The overlay will appear automatically.",
+    description:
+      "Launch League of Legends and start your stream. The overlay will appear automatically.",
     icon: Play,
   },
 ];
@@ -41,7 +51,7 @@ const InstallationSection = () => {
     <section id="download" className="relative py-24 bg-card/30">
       {/* Background grid */}
       <div className="absolute inset-0 grid-pattern opacity-20" />
-      
+
       {/* Decorative diagonal */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <div className="absolute -top-1/2 -right-1/4 w-full h-full bg-primary/5 rotate-12 rounded-3xl blur-3xl" />
@@ -55,7 +65,7 @@ const InstallationSection = () => {
             <span className="text-primary glow-text">Minutes</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Follow these simple steps to set up LOLLIVE on your stream.
+            Follow these simple steps to set up LOL STATS on your stream.
           </p>
         </div>
 
@@ -71,11 +81,13 @@ const InstallationSection = () => {
                 {index < steps.length - 1 && (
                   <div className="absolute left-[27px] top-16 w-0.5 h-[calc(100%+24px)] bg-gradient-to-b from-primary/50 to-primary/10" />
                 )}
-                
+
                 {/* Number circle */}
                 <div className="relative flex-shrink-0">
                   <div className="w-14 h-14 rounded-full bg-card border-2 border-primary/50 flex items-center justify-center group-hover:border-primary group-hover:glow-box transition-all">
-                    <span className="font-orbitron font-bold text-primary">{step.number}</span>
+                    <span className="font-orbitron font-bold text-primary">
+                      {step.number}
+                    </span>
                   </div>
                 </div>
 
