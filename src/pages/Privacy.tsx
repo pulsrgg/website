@@ -30,7 +30,7 @@ const Privacy = () => {
                 1. Introduction
               </h2>
               <p>
-                Welcome to LOL STATS ("we," "our," or "us"). We are committed to
+                Welcome to PULSRGG ("we," "our," or "us"). We are committed to
                 protecting your privacy and ensuring the security of your
                 personal information. This Privacy Policy explains how we
                 collect, use, disclose, and safeguard your information when you
@@ -176,7 +176,7 @@ const Privacy = () => {
                 contact us at:
               </p>
               <div className="bg-card/50 border border-primary/20 rounded-lg p-4">
-                <p className="text-primary">privacy@LOL STATS.app</p>
+                <p className="text-primary">privacy@PULSRGG.app</p>
               </div>
             </section>
           </div>

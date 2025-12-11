@@ -23,7 +23,7 @@ const CTASection = () => {
           </h2>
 
           <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-            Join streamers who use LOL STATS to provide their viewers with
+            Join streamers who use PULSRGG to provide their viewers with
             real-time game insights.
           </p>
 

@@ -12,7 +12,7 @@ const steps = [
     number: "01",
     title: "Install Twitch Extension",
     description:
-      "Add the LOL STATS extension to your Twitch channel from the Twitch Extensions panel.",
+      "Add the PULSRGG extension to your Twitch channel from the Twitch Extensions panel.",
     icon: ExternalLink,
     action: {
       label: "Go to Twitch Extensions",
@@ -65,7 +65,7 @@ const InstallationSection = () => {
             <span className="text-primary glow-text">Minutes</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Follow these simple steps to set up LOL STATS on your stream.
+            Follow these simple steps to set up PULSRGG on your stream.
           </p>
         </div>
 

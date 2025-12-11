@@ -17,7 +17,7 @@ const Footer = () => {
                 <Zap className="w-5 h-5 text-primary relative z-10" />
               </div>
               <span className="font-orbitron font-bold text-lg text-foreground">
-                <span className="text-primary">LOL</span>STATS
+                <span className="text-primary">PULSR</span>GG
               </span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-xs">
@@ -72,7 +72,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t border-primary/10">
           <p className="text-center text-muted-foreground text-sm">
-            © {new Date().getFullYear()} LOL STATS. All rights reserved. Not
+            © {new Date().getFullYear()} PULSRGG. All rights reserved. Not
             endorsed by Riot Games.
           </p>
         </div>

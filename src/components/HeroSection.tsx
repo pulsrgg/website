@@ -107,7 +107,7 @@ const HeroSection = () => {
 
                 <img
                   src={overlayScreenshot}
-                  alt="LOL STATS overlay showing real-time game stats"
+                  alt="PULSRGG overlay showing real-time game stats"
                   className="w-full rounded-lg"
                 />
 

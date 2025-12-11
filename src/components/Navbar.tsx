@@ -26,7 +26,7 @@ const Navbar = () => {
               <Zap className="w-6 h-6 text-primary relative z-10" />
             </div>
             <span className="font-orbitron font-bold text-xl text-foreground">
-              <span className="text-primary">LOL</span>STATS
+              <span className="text-primary">PULSR</span>GG
             </span>
           </Link>
 

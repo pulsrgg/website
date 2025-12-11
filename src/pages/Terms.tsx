@@ -30,7 +30,7 @@ const Terms = () => {
                 1. Acceptance of Terms
               </h2>
               <p>
-                By accessing or using LOL STATS ("Service"), you agree to be
+                By accessing or using PULSRGG ("Service"), you agree to be
                 bound by these Terms of Service. If you do not agree to these
                 terms, please do not use our Service.
               </p>
@@ -41,7 +41,7 @@ const Terms = () => {
                 2. Description of Service
               </h2>
               <p>
-                LOL STATS provides a Twitch extension and desktop companion
+                PULSRGG provides a Twitch extension and desktop companion
                 application that displays real-time League of Legends game data
                 on your stream. The Service includes:
               </p>
@@ -114,7 +114,7 @@ const Terms = () => {
               </h2>
               <p>
                 The Service, including all content, features, and functionality,
-                is owned by LOL STATS and is protected by international
+                is owned by PULSRGG and is protected by international
                 copyright, trademark, and other intellectual property laws.
               </p>
               <p className="mt-4">
@@ -144,7 +144,7 @@ const Terms = () => {
                 8. Limitation of Liability
               </h2>
               <p>
-                To the maximum extent permitted by law, LOL STATS shall not be
+                To the maximum extent permitted by law, PULSRGG shall not be
                 liable for any indirect, incidental, special, consequential, or
                 punitive damages arising out of or related to your use of the
                 Service.
@@ -195,7 +195,7 @@ const Terms = () => {
                 us at:
               </p>
               <div className="bg-card/50 border border-primary/20 rounded-lg p-4">
-                <p className="text-primary">legal@LOL STATS.app</p>
+                <p className="text-primary">legal@PULSRGG.app</p>
               </div>
             </section>
           </div>
