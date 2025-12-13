@@ -110,12 +110,6 @@ const HeroSection = () => {
                   alt="PULSRGG overlay showing real-time game stats"
                   className="w-full rounded-lg"
                 />
-
-                {/* Status indicator */}
-                <div className="absolute top-4 right-4 flex items-center gap-2 bg-background/90 px-3 py-1.5 rounded-full border border-primary/30">
-                  <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-                  <span className="text-xs font-medium text-primary">LIVE</span>
-                </div>
               </div>
             </div>
           </div>

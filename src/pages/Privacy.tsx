@@ -176,7 +176,7 @@ const Privacy = () => {
                 contact us at:
               </p>
               <div className="bg-card/50 border border-primary/20 rounded-lg p-4">
-                <p className="text-primary">privacy@PULSRGG.app</p>
+                <p className="text-primary">contactpulsrgg@gmail.com</p>
               </div>
             </section>
           </div>

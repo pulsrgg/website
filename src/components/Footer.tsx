@@ -46,27 +46,6 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-
-          {/* Social */}
-          <div className="space-y-4">
-            <h4 className="font-orbitron font-semibold text-sm text-primary uppercase tracking-wider">
-              Connect
-            </h4>
-            <div className="flex gap-4">
-              <a
-                href="#"
-                className="w-10 h-10 rounded-lg bg-secondary/50 border border-primary/20 flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 transition-all"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-lg bg-secondary/50 border border-primary/20 flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 transition-all"
-              >
-                <Github className="w-5 h-5" />
-              </a>
-            </div>
-          </div>
         </div>
 
         {/* Bottom bar */}
